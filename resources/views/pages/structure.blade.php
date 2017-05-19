@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 
-@section('title', 'Structure')
+@section('title', 'NYCity Cubs | Structure')
 
 @section('content')
 

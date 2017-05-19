@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 
-@section('title', 'Contact')
+@section('title', 'NYCity Cubs | Contact')
 
 @section('content')
 
@@ -11,9 +11,11 @@
                 <div class="col-sm-5 col-sm-offset-1">
                     <h2>CONTACT</h2>
                         <p>Contact us and we'll get back to you within 24 hours.</p>
-                        <p><span class="glyphicon glyphicon-map-marker"></span> Logan &amp; Adriana, Queens, New York</p>
-                        <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
-                        <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+                        <p><span class="glyphicon glyphicon-user"></span> Logan &amp; Adriana, Queens, New York</p>
+                        <p><span class="glyphicon glyphicon-map-marker"></span> Drop off/Pick up location:<br>
+                                                                                David Rubenstein Atrium, 61 West 62nd Street (Broadway)</p>
+                        {{--<p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>--}}
+                        <p><span class="glyphicon glyphicon-envelope"></span> loganenelson@gmail.com</p>
                 </div>
                 <div class="col-sm-5 col-sm-offset-1">
                     <div id="map" style="height:400px;width:100%;border-radius:15px;"></div>
