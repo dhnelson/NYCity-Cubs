@@ -5736,11 +5736,43 @@ body {
   background-image: url("../images/Melamine-wood.png");
   font-family: 'Open Sans', sans-serif; }
 
-#landingimg {
-  width: 80%; }
-  @media screen and (max-width: 990px) {
-    #landingimg {
-      width: 100%; } }
+#map {
+  height: 400px;
+  width: 100%;
+  border-radius: 15px; }
+  @media screen and (min-width: 790px) {
+    #map {
+      margin-left: -25%; } }
+
+@media screen and (min-width: 590px) {
+  #landing-container .col-sm-offset-3 {
+    margin-left: 5%; }
+  #landing-container .col-sm-3 {
+    width: 40%; } }
+
+@media screen and (min-width: 990px) {
+  #landingimg1 {
+    width: 73%;
+    margin-left: 33%;
+    margin-top: -4%; } }
+
+@media screen and (max-width: 990px) {
+  #landingimg1 {
+    width: 100%; } }
+
+@media screen and (min-width: 990px) {
+  #landingimg2 {
+    width: 100%;
+    margin-left: 2%;
+    margin-top: 3%; } }
+
+@media screen and (max-width: 990px) {
+  #landingimg2 {
+    width: 100%; } }
+
+@media screen and (max-width: 990px) {
+  #landingimg3 {
+    width: 100%; } }
 
 .well {
   border: 0 !important;
@@ -5846,7 +5878,7 @@ footer {
   border-top: 1px solid #d3e0e9; }
   @media screen and (max-width: 990px) {
     footer {
-      padding-bottom: 105px; } }
+      padding-bottom: 120px; } }
 
 #footer-left {
   float: left; }

@@ -14,11 +14,52 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
- #landingimg {
-   width: 80%;
+#map {
+	height:400px;
+	width:100%;
+	border-radius:15px;
+	@media screen and (min-width: 790px) {
+	margin-left: -25%;
+	}
+}
+
+@media screen and (min-width: 590px) {
+		#landing-container {
+					.col-sm-offset-3 {
+					    margin-left: 5%;
+					}
+					.col-sm-3 {
+							    width: 40%;
+					}
+		}
+}
+
+ #landingimg1 {
+	 @media screen and (min-width: 990px) {
+   width: 73%;
+	 margin-left: 33%;
+	 margin-top: -4%;
+ 	 }
 	 @media screen and (max-width: 990px) {
 		 width: 100%;
 	 }
+ }
+
+ #landingimg2 {
+	 @media screen and (min-width: 990px) {
+	 width: 100%;
+	 margin-left: 2%;
+	 margin-top: 3%;
+ 	 }
+	 @media screen and (max-width: 990px) {
+		width: 100%;
+	}
+ }
+
+ #landingimg3 {
+	 @media screen and (max-width: 990px) {
+		width: 100%;
+	}
  }
 
 .well {
@@ -150,7 +191,7 @@ footer {
 	padding: 15px 50px 50px 50px;
 	border-top: 1px solid #d3e0e9;
 	@media screen and (max-width: 990px) {
-		padding-bottom: 105px;
+		padding-bottom: 120px;
 	}
 }
 

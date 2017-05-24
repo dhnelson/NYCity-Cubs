@@ -12,13 +12,13 @@
                     <h2>CONTACT</h2>
                         <p>Contact us and we'll get back to you within 24 hours.</p>
                         <p><span class="glyphicon glyphicon-user"></span> Logan &amp; Adriana, Queens, New York</p>
+                        <p><span class="glyphicon glyphicon-phone"></span> <a href="tel:9176836854">(917) 683-6854</a></p>
+                        <p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:nycitycubs@gmail.com">nycitycubs@gmail.com</a></p>
                         <p><span class="glyphicon glyphicon-map-marker"></span> Drop off/Pick up location:<br>
                                                                                 David Rubenstein Atrium, 61 West 62nd Street (Broadway)</p>
-                        {{--<p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>--}}
-                        <p><span class="glyphicon glyphicon-envelope"></span> loganenelson@gmail.com</p>
-                </div>
+                </div><br>
                 <div class="col-sm-5 col-sm-offset-1">
-                    <div id="map" style="height:400px;width:100%;border-radius:15px;"></div>
+                    <div id="map"></div>
 
                     <!-- Add Google Maps -->
                     <script>
