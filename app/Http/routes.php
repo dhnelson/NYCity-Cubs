@@ -27,9 +27,9 @@ Route::get('learning', [
 	'uses' => 'HomeController@learning'
 ]);
 
-Route::get('responsabilities_cost', [
-	'as' => 'responsabilities_cost',
-	'uses' => 'HomeController@responsabilities_cost'
+Route::get('responsibilities_cost', [
+	'as' => 'responsibilities_cost',
+	'uses' => 'HomeController@responsibilities_cost'
 ]);
 
 Route::get('structure', [

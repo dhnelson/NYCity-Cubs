@@ -15,9 +15,9 @@
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="{{ Request::is('/') ? "active" : ""}}"><a href="{{ route('home') }}">HOME</a></li>
-                    <li class="dropdown {{ Request::is('responsabilities_cost', 'structure', 'learning') ? "active" : ""}}"><a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT<span class="caret"></span></a>
+                    <li class="dropdown {{ Request::is('responsibilities_cost', 'structure', 'learning') ? "active" : ""}}"><a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT<span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a id="myDropdown" href="{{ route('responsabilities_cost') }}">RESPONSABILITIES &amp; COST</a></li>
+                            <li><a id="myDropdown" href="{{ route('responsibilities_cost') }}">RESPONSIBILITIES &amp; COST</a></li>
                             {{--<li><a id="myDropdown" href="{{ route('structure') }}">3 DAY STRUCTURE</a></li>--}}
                             {{--<li><a id="myDropdown" href="{{ route('learning') }}">THIS SUMMER AT NYCity CUBS</a></li>--}}
                         </ul>

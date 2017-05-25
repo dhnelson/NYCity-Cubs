@@ -34,6 +34,10 @@ body {
 		}
 }
 
+#landingimg {
+	width: 80%;
+}
+
  #landingimg1 {
 	 @media screen and (min-width: 990px) {
    width: 73%;
@@ -86,7 +90,7 @@ body {
     background-color: #b370ce;
 }
 
-#th-responsabilities {
+#th-responsibilities {
   background-color: #b370ce;
   color: #fff;
 }
@@ -102,6 +106,16 @@ body {
 
 #tr-orange {
   background-color: #fbe5c1;
+}
+
+#light-purple {
+	color: #b370ce;
+	font-weight: bold;
+}
+
+#dark-purple {
+	color: #732e9a;
+	font-weight: bold;
 }
 
 .navbar {

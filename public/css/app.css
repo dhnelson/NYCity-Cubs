@@ -5750,6 +5750,9 @@ body {
   #landing-container .col-sm-3 {
     width: 40%; } }
 
+#landingimg {
+  width: 80%; }
+
 @media screen and (min-width: 990px) {
   #landingimg1 {
     width: 73%;
@@ -5795,7 +5798,7 @@ body {
 .table tbody tr:hover td {
   background-color: #b370ce; }
 
-#th-responsabilities {
+#th-responsibilities {
   background-color: #b370ce;
   color: #fff; }
 
@@ -5808,6 +5811,14 @@ body {
 
 #tr-orange {
   background-color: #fbe5c1; }
+
+#light-purple {
+  color: #b370ce;
+  font-weight: bold; }
+
+#dark-purple {
+  color: #732e9a;
+  font-weight: bold; }
 
 .navbar {
   background-color: #f9f9f9;

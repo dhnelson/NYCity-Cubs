@@ -15,8 +15,8 @@ class HomeController extends Controller
         return view('pages.learning');
     }
 
-    public function responsabilities_cost() {
-        return view('pages.responsabilities_cost');
+    public function responsibilities_cost() {
+        return view('pages.responsibilities_cost');
     }
 
     public function structure() {
