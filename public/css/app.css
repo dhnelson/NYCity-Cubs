@@ -5744,38 +5744,15 @@ body {
     #map {
       margin-left: -25%; } }
 
-@media screen and (min-width: 590px) {
-  #landing-container .col-sm-offset-3 {
-    margin-left: 5%; }
-  #landing-container .col-sm-3 {
-    width: 40%; } }
-
 #landingimg {
-  width: 80%; }
+  width: 75%;
+  margin-top: -1%; }
 
-@media screen and (min-width: 990px) {
-  #landingimg1 {
-    width: 73%;
-    margin-left: 33%;
-    margin-top: -4%; } }
-
-@media screen and (max-width: 990px) {
-  #landingimg1 {
-    width: 100%; } }
-
-@media screen and (min-width: 990px) {
-  #landingimg2 {
-    width: 100%;
-    margin-left: 2%;
-    margin-top: 3%; } }
-
-@media screen and (max-width: 990px) {
-  #landingimg2 {
-    width: 100%; } }
-
-@media screen and (max-width: 990px) {
-  #landingimg3 {
-    width: 100%; } }
+@media screen and (min-width: 950px) {
+  #costimg {
+    margin-left: 10%;
+    margin-top: -11%;
+    width: 85%; } }
 
 .well {
   border: 0 !important;
@@ -5796,21 +5773,21 @@ body {
   border: 1px solid #000000; }
 
 .table tbody tr:hover td {
-  background-color: #b370ce; }
+  background-color: #8EC9E8; }
 
 #th-responsibilities {
   background-color: #b370ce;
   color: #fff; }
 
 #th-cost {
-  background-color: #b50919;
+  background-color: #0d87c8;
   color: #fff; }
 
 #bold {
   font-weight: bold; }
 
-#tr-orange {
-  background-color: #fbe5c1; }
+#tr-purple {
+  background-color: #b370ce; }
 
 #light-purple {
   color: #b370ce;
@@ -5819,6 +5796,30 @@ body {
 #dark-purple {
   color: #732e9a;
   font-weight: bold; }
+
+#dark-blue {
+  color: #0d87c8;
+  font-weight: bold; }
+
+#light-blue {
+  color: #40A2D6;
+  font-weight: bold; }
+
+#details-header {
+  color: #e4cff0;
+  background-color: #1d84cd;
+  font-weight: bold;
+  padding: 2%; }
+
+@media screen and (min-width: 950px) {
+  #details-math {
+    margin-top: 29%; }
+  #details-research {
+    margin-top: -28%;
+    margin-right: 34%; } }
+
+#justify {
+  text-align: justify; }
 
 .navbar {
   background-color: #f9f9f9;
@@ -5834,7 +5835,7 @@ body {
   color: #732e9a; }
   @media screen and (min-width: 1050px) {
     .nav.navbar-nav li a {
-      line-height: 85px; } }
+      line-height: 70px; } }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-header > a:hover {
   color: #b370ce; }
@@ -5844,6 +5845,9 @@ body {
 
 .navbar-default .navbar-nav .active > a:hover {
   color: #b370ce; }
+
+.navbar-brand {
+  padding: 3px 20px; }
 
 a {
   cursor: pointer;

@@ -23,48 +23,18 @@ body {
 	}
 }
 
-@media screen and (min-width: 590px) {
-		#landing-container {
-					.col-sm-offset-3 {
-					    margin-left: 5%;
-					}
-					.col-sm-3 {
-							    width: 40%;
-					}
-		}
-}
-
 #landingimg {
-	width: 80%;
+	width: 75%;
+	margin-top: -1%;
 }
 
- #landingimg1 {
-	 @media screen and (min-width: 990px) {
-   width: 73%;
-	 margin-left: 33%;
-	 margin-top: -4%;
- 	 }
-	 @media screen and (max-width: 990px) {
-		 width: 100%;
-	 }
- }
-
- #landingimg2 {
-	 @media screen and (min-width: 990px) {
-	 width: 100%;
-	 margin-left: 2%;
-	 margin-top: 3%;
- 	 }
-	 @media screen and (max-width: 990px) {
-		width: 100%;
+#costimg {
+	@media screen and (min-width: 950px) {
+	margin-left: 10%;
+	margin-top: -11%;
+	width: 85%;
 	}
- }
-
- #landingimg3 {
-	 @media screen and (max-width: 990px) {
-		width: 100%;
-	}
- }
+}
 
 .well {
   border: 0 !important;
@@ -87,7 +57,7 @@ body {
 }
 
 .table tbody tr:hover td {
-    background-color: #b370ce;
+    background-color: #8EC9E8;
 }
 
 #th-responsibilities {
@@ -96,7 +66,7 @@ body {
 }
 
 #th-cost {
-  background-color: #b50919;
+  background-color: #0d87c8;
   color: #fff;
 }
 
@@ -104,8 +74,8 @@ body {
   font-weight: bold;
 }
 
-#tr-orange {
-  background-color: #fbe5c1;
+#tr-purple {
+  background-color: #b370ce;
 }
 
 #light-purple {
@@ -116,6 +86,38 @@ body {
 #dark-purple {
 	color: #732e9a;
 	font-weight: bold;
+}
+
+#dark-blue {
+	color: #0d87c8;
+	font-weight: bold;
+}
+
+#light-blue {
+	color: #40A2D6;
+	font-weight: bold;
+}
+
+#details-header {
+	color: #e4cff0;
+	background-color: #1d84cd;
+	font-weight: bold;
+	padding: 2%;
+}
+
+@media screen and (min-width: 950px) {
+	#details-math {
+		margin-top: 29%;
+	}
+
+	#details-research {
+		margin-top: -28%;
+		margin-right: 34%;
+	}
+}
+
+#justify {
+	text-align: justify;
 }
 
 .navbar {
@@ -132,7 +134,7 @@ body {
 .nav.navbar-nav li a {
    	color: #732e9a;
    	@media screen and (min-width: 1050px) {
-   	line-height: 85px;
+   	line-height: 70px;
 }
 }
 
@@ -146,6 +148,10 @@ body {
 
 .navbar-default .navbar-nav .active > a:hover {
     color: #b370ce;
+}
+
+.navbar-brand {
+		padding: 3px 20px;
 }
 
 a {

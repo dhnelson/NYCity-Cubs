@@ -22,19 +22,14 @@ Route::get('/', [
 	'uses' => 'HomeController@home'
 ]);
 
-Route::get('learning', [
-	'as' => 'learning',
-	'uses' => 'HomeController@learning'
-]);
-
 Route::get('responsibilities_cost', [
 	'as' => 'responsibilities_cost',
 	'uses' => 'HomeController@responsibilities_cost'
 ]);
 
-Route::get('structure', [
-	'as' => 'structure',
-	'uses' => 'HomeController@structure'
+Route::get('details', [
+	'as' => 'details',
+	'uses' => 'HomeController@details'
 ]);
 
 Route::get('contact', [

@@ -11,16 +11,12 @@ class HomeController extends Controller
         return view('pages.home');
     }
 
-    public function learning() {
-        return view('pages.learning');
-    }
-
     public function responsibilities_cost() {
         return view('pages.responsibilities_cost');
     }
 
-    public function structure() {
-        return view('pages.structure');
+    public function details() {
+        return view('pages.details');
     }
 
     public function contact() {

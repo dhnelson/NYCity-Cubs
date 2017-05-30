@@ -27,15 +27,15 @@
                                 </ul>
                         </ul>
 
-                    <h3 id="dark-purple">Program Cost Breakdown:</h3>
+                    <h3 id="dark-blue">Program Cost Breakdown:</h3>
                             <ul>
-                                <li id="light-purple">Cost per student</li>
+                                <li id="light-blue">Cost per student</li>
                                     <ul>
                                         <li>$54 per day</li>
                                         <li>$270 per week</li>
                                         <li id="bold">$540 total cost</li>
                                     </ul>
-                                <li id="light-purple">Cost of a sibling</li>
+                                <li id="light-blue">Cost of a sibling</li>
                                     <ul>
                                         <li>$28 per day</li>
                                         <li>$135 per week</li>
@@ -53,7 +53,7 @@
                                     <td>June 19th</td>
                                     <td>$175</td>
                                 </tr>
-                                <tr id="tr-orange">
+                                <tr id="tr-purple">
                                     <td>June 26th</td>
                                     <td>$175</td>
                                 </tr>
@@ -61,12 +61,16 @@
                                     <td>July 3rd</td>
                                     <td>$95</td>
                                 </tr>
-                                <tr id="tr-orange">
+                                <tr id="tr-purple">
                                     <td>July 10th</td>
                                     <td>$95</td>
                                 </tr>
                             </table>
                         </div>
+                        <div class="col-sm-6">
+                          <img src="{{ url('images/costimg.png') }}" class="img-responsive center-block" id="costimg" alt="cost img"></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -120,7 +124,7 @@
                                     <td>June 19th</td>
                                     <td>$175</td>
                                 </tr>
-                                <tr id="tr-orange">
+                                <tr id="tr-purple">
                                     <td>June 26th</td>
                                     <td>$175</td>
                                 </tr>
@@ -128,11 +132,14 @@
                                     <td>July 3rd</td>
                                     <td>$95</td>
                                 </tr>
-                                <tr id="tr-orange">
+                                <tr id="tr-purple">
                                     <td>July 10th</td>
                                     <td>$95</td>
                                 </tr>
                             </table>
+                        </div>
+                        <div class="col-sm-6">
+                          <img src="{{ url('images/costimg.png') }}" class="img-responsive center-block" id="costimg" alt="cost img"></a>
                         </div>
                     </div>
                 </div>

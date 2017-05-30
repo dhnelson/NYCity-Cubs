@@ -11,7 +11,7 @@
                 <div class="col-sm-5 col-sm-offset-1">
                     <h2>CONTACT</h2>
                         <p>Contact us and we'll get back to you within 24 hours.</p>
-                        <p><span class="glyphicon glyphicon-user"></span> Logan &amp; Adriana, Queens, New York</p>
+                        <p><span class="glyphicon glyphicon-user"></span> NYCity Cubs LLC, New York</p>
                         <p><span class="glyphicon glyphicon-phone"></span> <a href="tel:9176836854">(917) 683-6854</a></p>
                         <p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:nycitycubs@gmail.com">nycitycubs@gmail.com</a></p>
                         <p><span class="glyphicon glyphicon-map-marker"></span> Drop off/Pick up location:<br>
